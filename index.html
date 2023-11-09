@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: black;
+    }
+
+    .phone {
+        width: 300px;
+        height: 550px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .welcome-text {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    
+    }
+
+    .button {
+        padding: 12px 20px;
+        background-color: #4CAF50;
+        color:white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        
+    }
+    .button:hover {
+        background-color: red;
+        color: white;
+    }
+    .logo {
+        margin-top: 5px;
+        height: 250px;
+        width: 250px;
+    }
+</style>
+</head>
+<body>
+    <div class="phone">
+        <div class="logo">
+            <img src="logo.png" alt="Logo" class="logo" >
+        </div>
+        <div class="header">Welcome  To</div>
+        <div class="welcome-text">Blind Assistant App!</div>
+        <button class="button" type="button" onclick="location.href='https://savi2905.github.io/login/'">
+            Get Started</button>
+</body>
+</html>
